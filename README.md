@@ -1,7 +1,2 @@
-# PluginTemplate
-
-This repository acts as a baseline plugin to allow you to quickly and easily create new TShock plugins.
-
-# Plugin Development
-
-For more information on TShock plugin development feel free to visit the [TShock repository](https://github.com/Pryaxis/TShock), the [TShock documentation](https://ikebukuro.tshock.co), the [TShock ReadMe](https://tshock.readme.io/docs/) or the official [TShock Discord](https://discord.com/invite/Cav9nYX).
+This tshock stops players from using beach balls to flood your entire server's chat without banning the projectile by using this plugin.
+This is done by checking if the last 5 messages are beach ball spam messages if so we kick the player or delete their beach balls.
