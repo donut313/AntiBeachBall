@@ -145,7 +145,6 @@ public class AntiBeachBall : TerrariaPlugin
             config = config.read();
         else
             config.write();
-        Console.WriteLine("disable thingy" + config.Disable);
     }
     private void OnReload(ReloadEventArgs args)
     {
